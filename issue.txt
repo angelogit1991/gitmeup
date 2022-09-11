@@ -1,0 +1,31 @@
+Hi Coach Abdul,
+
+Thanks for writing in,
+
+As per your screenshot, it seems that your previous sn labs and openshift session are persisting.
+
+Run this command -> ibmcloud cr image-rm us.icr.io/$MY_NAMESPACE/guestbook:v1 && docker rmi us.icr.io/$MY_NAMESPACE/guestbook:v1
+
+At the start of the lab, this note has been added please refer.
+
+Note: Kindly click on the OpenShift console tab and check if you have any existing projects. If yes, then follow this link
+
+
+
+https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/4_IntroOpenShift/oc___snlabs_proj_deletion.md.html?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursescc20117568655-2021-01-01
+
+
+
+
+
+ to delete the same first to avoid any issues with the lab. Otherwise, you are all set to perform the lab.
+
+Kindly logout of thiea lab and clear your system cache and cookies. 
+
+You can now start the lab and compare the each step output with the screenshot given in the lab instructions .
+
+Happy Learning!  
+
+Thanks & Regards,
+
+~Sapthashree (Staff)  
